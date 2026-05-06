@@ -1,16 +1,36 @@
-# React + Vite
+🤖 NiaIA – Agente de Inteligência Artificial
+📌 Sobre o projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O NiaIA é um agente de Inteligência Artificial desenvolvido utilizando uma arquitetura completa com frontend + backend + integração com a API da Groq.
 
-Currently, two official plugins are available:
+Este projeto foi criado com foco em aprimorar meus estudos na prática, indo além da teoria e construindo uma aplicação funcional do zero.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Tecnologias utilizadas
+Frontend: Interface de interação com o usuário
+Backend: Responsável pela lógica e comunicação com a API
+API Groq: Processamento das respostas da IA
+Node.js / JavaScript: Base do desenvolvimento
+🎯 Objetivo
 
-## React Compiler
+O principal objetivo do NiaIA foi:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Evoluir minhas habilidades em desenvolvimento full stack
+Entender na prática como funciona a comunicação entre sistemas
+Trabalhar com APIs de Inteligência Artificial
+Criar algo além do básico
+💡 Diferencial
 
-## Expanding the ESLint configuration
+O NiaIA não segue o padrão visual comum de outras IAs.
+A proposta foi desenvolver uma interface com um visual diferente, buscando uma experiência mais personalizada e fora do padrão tradicional.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📚 Aprendizados
+
+Com esse projeto, consegui evoluir em:
+
+Estruturação de aplicações completas (frontend + backend)
+Integração com APIs externas
+Organização de código
+Pensamento mais próximo do ambiente profissional
+⚠️ Observação
+
+Este projeto foi desenvolvido com foco em aprendizado, então ainda existem pontos que podem ser melhorados, como performance, refatoração e novas funcionalidades.
