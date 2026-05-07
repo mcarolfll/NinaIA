@@ -1,5 +1,9 @@
 require("dotenv").config();
 
+if (!process.env.GROQ_API_KEY) {
+  console.warn("⚠️ GROQ_API_KEY não configurada. O chat não funcionará.");
+}
+
 const express = require("express");
 const cors = require("cors");
 const axios = require("axios");
@@ -8,7 +12,10 @@ const conexao = require("./db");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: "https://nina-ia.vercel.app"
+}));
+
 app.use(express.json());
 
 // TESTE
@@ -105,6 +112,6 @@ app.post("/chat", async (req, res) => {
 // START
 const PORT = process.env.PORT || 3001;
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`✅ Nina rodando em http://localhost:${PORT}`);
 });
